@@ -8,29 +8,28 @@
     <link rel="stylesheet" href="css/common.css" />
     <style>
       html, body {
-        height: 869px;
-        width: 1440px;
         margin: 0;
         padding: 0;
+        max-height: 869px;
+        max-width: 1440px;
+        background-color: rgb(244, 245, 246);
       }
 
       body {
+        width: 100vw;
+        height: 100vh;
+      }
+      div {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
+        margin-right: -80px;
+        padding: 0 20px;
       }
 
-      iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-      }
     </style>
   </head>
   <body>
-    <iframe src="https://edo.whitedoc.ua/shared-envelope/create?code=ba7f76e2634f4920942bafbc87201094&redirectUrl="></iframe>
+    <div><iframe width="100%" height="869px" src="https://edo.whitedoc.ua/shared-envelope/create?code=ba7f76e2634f4920942bafbc87201094&redirectUrl=" frameborder="0"></iframe></div>
   </body>
 </html>
